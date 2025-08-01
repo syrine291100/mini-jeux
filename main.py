@@ -21,6 +21,7 @@ from mini_games.guess_number import GuessNumberGame
 from mini_games.memory import MemoryGame
 from mini_games.high_scores import HighScores
 from mini_games.snake import SnakeGame
+from mini_games.tic_tac_toe import TicTacToeGame
 
 
 # Couleurs et paramètres du menu
@@ -32,6 +33,7 @@ FONT_SIZE = 36
 MENU_OPTIONS = [
     ("Pong", PongGame),
     ("Snake", SnakeGame),
+    ("Morpion", TicTacToeGame),
     ("Devinez le nombre", GuessNumberGame),
     ("Jeu de mémoire", MemoryGame),
     ("Meilleurs scores", HighScores)
