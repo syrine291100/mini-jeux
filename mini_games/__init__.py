@@ -7,3 +7,4 @@ from .memory import MemoryGame
 from .pong import PongGame
 from .high_scores import HighScores
 from .snake import SnakeGame
+from .tic_tac_toe import TicTacToeGame
