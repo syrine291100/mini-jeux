@@ -27,6 +27,7 @@ from mini_games.whack_a_mole import WhackAMoleGame
 from mini_games.sliding_puzzle import SlidingPuzzleGame
 from mini_games.simon_says import SimonSaysGame
 from mini_games.reaction_timer import ReactionTimerGame
+from mini_games.math_quiz import MathQuizGame
 
 
 
@@ -47,6 +48,7 @@ MENU_OPTIONS = [
     ("La taupe", WhackAMole),
     ("Simon Says", SimonSaysGame),
     ("Reaction Timer", ReactionTimerGame),
+    ("Math Quiz",MathQuizGame),
     ("Meilleurs scores", HighScores)
     
 ]
@@ -94,6 +96,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
