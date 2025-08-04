@@ -26,6 +26,7 @@ from mini_games.breakout import BreakoutGame
 from mini_games.whack_a_mole import WhackAMoleGame
 from mini_games.sliding_puzzle import SlidingPuzzleGame
 from mini_games.simon_says import SimonSaysGame
+from mini_games.reaction_timer import ReactionTimerGame
 
 
 
@@ -45,6 +46,7 @@ MENU_OPTIONS = [
     ("Taquin", SlidingPuzzleGame),
     ("La taupe", WhackAMole),
     ("Simon Says", SimonSaysGame),
+    ("Reaction Timer", ReactionTimerGame),
     ("Meilleurs scores", HighScores)
     
 ]
@@ -92,6 +94,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
