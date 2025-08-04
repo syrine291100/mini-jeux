@@ -12,4 +12,4 @@ from .breakout import BreakoutGame
 from .whack_a_mole import WhackAMoleGame
 from .sliding_puzzle import SlidingPuzzleGame
 from .simon_says import SimonSaysGame
-
+from .reaction_timer import ReactionTimerGame
