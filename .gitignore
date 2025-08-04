@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.venv/
+best_scores.json
+*.sqlite3
+.DS_Store
