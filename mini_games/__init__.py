@@ -15,3 +15,4 @@ from .simon_says import SimonSaysGame
 from .reaction_timer import ReactionTimerGame
 from .math_quiz import MathQuizGame
 from .pendu import PenduGame
+from .sudoku import SudokuGame
