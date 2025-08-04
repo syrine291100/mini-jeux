@@ -30,6 +30,9 @@ from mini_games.reaction_timer import ReactionTimerGame
 from mini_games.math_quiz import MathQuizGame
 from mini_games.pendu import PenduGame
 from mini_games.sudoku import SudokuGame
+from mini_games.game_2048 import Game2048
+
+
 
 
 
@@ -53,6 +56,7 @@ MENU_OPTIONS = [
     ("Math Quiz", MathQuizGame),
     ("Pendu", Pendu),
     ("Sudoku", Sudoku),
+    ("2048", Game2048),
     ("Meilleurs scores", HighScores)
     
 ]
@@ -100,6 +104,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
