@@ -16,3 +16,4 @@ from .reaction_timer import ReactionTimerGame
 from .math_quiz import MathQuizGame
 from .pendu import PenduGame
 from .sudoku import SudokuGame
+from .game_2048 import Game2048
