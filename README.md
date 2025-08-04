@@ -16,5 +16,5 @@ Projet de mini-jeux développés avec **Pygame**, avec système de niveaux, meil
 
 ### 1. Cloner le dépôt
 ```bash
-git clone <URL_DE_TON_REPO>
-cd mini-jeux  # ou le nom de dossier
+git clone <URL_DU_PROJET>
+cd mini-jeux  
