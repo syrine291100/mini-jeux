@@ -25,6 +25,7 @@ from mini_games.tic_tac_toe import TicTacToeGame
 from mini_games.breakout import BreakoutGame
 from mini_games.whack_a_mole import WhackAMoleGame
 from mini_games.sliding_puzzle import SlidingPuzzleGame
+from mini_games.simon_says import SimonSaysGame
 
 
 
@@ -43,7 +44,9 @@ MENU_OPTIONS = [
     ("Jeu de mémoire", MemoryGame),
     ("Taquin", SlidingPuzzleGame),
     ("La taupe", WhackAMole),
-    ("Meilleurs scores", HighScores) 
+    ("Simon Says", SimonSaysGame),
+    ("Meilleurs scores", HighScores)
+    
 ]
 
 
@@ -89,5 +92,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
