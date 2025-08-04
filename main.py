@@ -23,6 +23,8 @@ from mini_games.high_scores import HighScores
 from mini_games.snake import SnakeGame
 from mini_games.tic_tac_toe import TicTacToeGame
 from mini_games.breakout import BreakoutGame
+from mini_games.whack_a_mole import WhackAMoleGame
+
 
 
 # Couleurs et paramètres du menu
@@ -84,3 +86,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
