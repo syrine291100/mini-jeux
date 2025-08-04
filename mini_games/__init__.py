@@ -10,3 +10,5 @@ from .snake import SnakeGame
 from .tic_tac_toe import TicTacToeGame
 from .breakout import BreakoutGame
 from .whack_a_mole import WhackAMoleGame
+from .sliding_puzzle import SlidingPuzzleGame
+
